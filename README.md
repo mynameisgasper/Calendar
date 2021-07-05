@@ -8,3 +8,8 @@ Purple dates show sundays and pink dates show holidays read from holidays.txt lo
   - Clicking on year makes it editable.
   
 **Linux version is currently not supported by NW.js**
+
+**Instructions**
+  - Download release file and unzip it
+  - Unzip .zip file based on you operating system
+  - Run calendar.exe file
