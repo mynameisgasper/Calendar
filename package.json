@@ -1,0 +1,21 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/views/calendar.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "build --tasks win-x64,linux-x64,mac-x64 --mirror https://dl.nwjs.io/ . prod/ src/"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "Gasper Stepec",
+  "license": "ISC",
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.15.0"
+  },
+  "build": {
+    "nwVersion": "0.36.0"
+  }
+}

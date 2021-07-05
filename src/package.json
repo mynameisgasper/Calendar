@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/calendar.html",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "window": {
+    "title": "Calendar",
+    "icon": "./assets/icon-calendar.ico",
+    "toolbar": true,
+    "width": 1024,
+    "height": 768,
+    "min-width": 1024,
+    "min-height": 768
+  },
+  "keywords": ["calendar"],
+  "author": "Gasper Stepec",
+  "license": "ISC"
+}

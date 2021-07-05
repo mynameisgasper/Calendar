@@ -1,0 +1,146 @@
+body {
+    margin-top: 5vh;
+    font: 1.5vw Helvetica;
+    text-align: center;
+    background-color: lightgray;
+
+}
+
+.row {
+    display: flex;
+}
+
+
+/* card */
+#card_container {
+    padding: 0!important;
+}
+
+.card {
+    background-color: #6699ff;
+    border-radius: 0vh 1vh 1vh 0vh;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+#date {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 700;
+    margin: -2vh;
+}
+
+/*******************************************/
+
+/* table */
+#calendar {
+    padding: 0!important;
+}
+.table {
+    border-radius: 1vh 0vh 0vh 1vh;
+    table-layout: fixed;
+    width: 60%;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-bottom: 0px!important;
+}
+
+.table td {
+    transition: text-shadow .3s;
+    color: hsla(0,0%,100%,.5)
+}
+.table td:hover {
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff;
+}
+/*****************************************/
+
+
+/* arrows */
+.arrow {
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    margin: 2vh;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.arrowButton {
+    border: none;
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+/*****************************************/
+
+
+/* align month and year text so they're shown inline */
+#month_and_year_container {
+    text-align:center;
+}
+
+#month, #year {
+    display: inline;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+/*****************************************/
+
+
+/* Select without borders and no dropdown arrow*/
+select { 
+    font-size: 1.5vw;
+    font-weight: bold;
+    direction: rtl; 
+    border:0px;
+    outline:0px;
+    color: white;
+    background-color: #6699ff;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+/******************************************/
+
+
+/*Year input*/
+#year_input {
+    font-size: 1.5vw;
+    font-weight: bold;
+    border:0px;
+    outline:0px;
+    color: white;
+    background-color: #6699ff;
+}
+/******************************************/
+
+
+/*Date picker */
+#datePicker {
+    align-self: center;
+    color: white;
+    background-color: #6699ff;
+    width: 70%;
+    border-radius: 1vh;
+    border-color: white;
+}
+::-webkit-calendar-picker-indicator { filter: invert(1); }
+
+/*****************************************/
+
